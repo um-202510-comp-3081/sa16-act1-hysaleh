@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    margin:20px;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+
+body .image{
+    
+    width:30%;
+    height: 30%;
+}
+
+
+
+body .image2{
+    
+    width:30%;
+    height: 30%;
+}

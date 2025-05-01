@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Dev Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>About</h1>
+    <ul>
+        <li>Skills:
+            <ul>
+                <li>Python</li>
+                <li>MERN stack</li>
+                <li>Django</li>
+            </ul>
+        </li>
+        <li>Educational Background:
+            <ul>
+                <li>B.S Computer Science-General Concentration, Expected graduation: May 2026</li>
+                <li>B.A English-Linguistics Concentration, Expected graduation: May 2026</li>
+            </ul>
+        </li>
+        <li>Achievements:
+            <ul>
+                <li>Participated in Major League Hacking hackathon</li>
+                <li>Completed NASA's Mission Concept Academy program</li>
+                <li>Completed NASA's NPWEE program</li>
+            </ul>
+        </li>
+    </ul>
+    <a href="{% url 'home' %}"> Home Page</a>
+</body>
+</html>

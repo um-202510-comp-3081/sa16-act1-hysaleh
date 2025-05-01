@@ -1,0 +1,29 @@
+{%load static%}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<h1>Home Page</h1>
+<body>
+    <p>
+    Welcome!
+    <br>
+
+    I'm a Senior Computer Science student and solo developer who's passionate about product design! I've participated in two NASA workforce development programs, and have participated in several hackathons throughout the year.
+
+    <ul>
+        <li><a href="{% url 'about' %}">About Me</a></li>
+        <li><a href="{% url 'projects' %}">Projects</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+
+
+    </ul>
+
+</p>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+
+
+    <h1>Project Information</h1>
+    <ul>
+    <li>Library Management System: Simple Library System using PyQt and Python</li>
+        
+    </ul>
+    <img class="image" src="{% static 'lms.png' %}" alt="LMS Screenshot">
+    <br></br>
+    <li>Titanic Survivor Prediction Model : for Kaggle's Machine Learning from Disaster using Python</li>
+
+    <img class="image2" src="{%static 'titanic.png'%}" alt="Titanic Screenshot">
+    <br></br>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>
